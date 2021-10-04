@@ -1,0 +1,15 @@
+.rounded-circle {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .rounded-circle img {
+    height: 100%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+
+ .header{
+     margin-top: 90px;
+ }
