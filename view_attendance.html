@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="courses.css">
+    <script src="courses.js"></script>
+
+    <title>courses</title>
+  </head>
+  <body>
+
+    <style media="screen">
+      .circular{
+        background: rgba(3, 252, 182, 0.2);
+        height: 10vh;
+        border-radius: 0px 0px 50px 30px;
+        z-index: 9;
+
+      }
+
+      div.home{
+            width: 100%;
+            height: 150px;
+            position: relative;
+            margin: 0px;
+      }
+
+      div.menu{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+      }
+      .row{
+        padding-top: 15px;
+      }
+
+      .right{
+        text-align: center;
+      }
+
+
+      .percent-container{
+        padding:40px;
+        box-sizing:border-box;
+        height: 350px;
+      }
+
+      .percent{
+        background-color:teal;
+        height:80%;
+        width: 300px;
+        padding:40px;
+      }
+
+      .attendance_avg{
+        margin-left: 150px;
+      }
+
+
+    </style>
+
+    <div class="home">
+      <div class="circular menu">
+        <section class="row justify-content-center ">
+
+                <div class="col-md-8 attendance">
+                    <h3>Attendance</h3>
+                    <h3 class="right">Bussiness plan</h3>
+                </div>
+                <div class="col-md-1">
+                    <img src="images (3).jpg" class="rounded-circle" alt="profile picture">
+                </div>
+
+
+
+        </section>
+
+      </div>
+
+
+    </div>
+
+    <div class="container">
+      <div class="second">
+        <div class="third">
+          <br>
+            <div>
+              <div class="row">
+                  <div class="col">
+
+                      <div class="alert alert-secondary" role="alert">
+                          <div class="row">
+                              <div class="col-md-11">
+                                <h4>Total Attendance</h4>
+                              </div>
+                              <div class="col-md-1">
+                                <h4>30</h4>
+                              </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="alert alert-secondary" role="alert">
+                            <div class="row">
+                                <div class="col-md-11">
+                                  <h4>Class Present</h4>
+                                </div>
+                                <div class="col-md-1">
+                                  <h4>24</h4>
+                                </div>
+
+                              </div>
+
+                          </div>
+
+                          <div class="alert alert-secondary" role="alert">
+                              <div class="row">
+                                  <div class="col-md-11">
+                                    <h4>Class Absent</h4>
+                                  </div>
+                                  <div class="col-md-1">
+                                    <h4>6</h4>
+                                  </div>
+
+                                </div>
+
+                            </div>
+
+                  </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img class=" attendance_avg justify-content-center" src="attendance_avg.jpg" alt="" width="60%" >
+          <!-- <div class="card rounded-pill" style="width: 18rem; height:50px;">
+            <div class="card-body">
+              <p class="card-text text-center" >Average attendance</p>
+            </div>
+          </div> -->
+          <div class="row percent-container justify-content-center">
+                <div class="percent text-center" style="padding-top:80px;color:white;"><h1>80%</h1></div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://calendar.google.com/calendar/embed?src=o06uai1q3idiknkr55dmph8tn4%40group.calendar.google.com&ctz=Africa%2FNairobi" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+
+        </div>
+
+      </div>
+
+
+      </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
